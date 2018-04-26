@@ -42,11 +42,10 @@ for i = 1 : Kmax
     %save the cuurent location of the found object
     Location_bank{i,1} = Oxy;
     %adding a random object for next loop
-    if (i< Kmax)
+    
         dummy=round(rand(1,2)*X)+1;
         Oxy = [Oxy , dummy];
-        Io=drawcircle(I,Oxy,i+1);         % draw the new position
-        figure(1),imshow(Io);
-    end
+        
+   
 end
 toc
