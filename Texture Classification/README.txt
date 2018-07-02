@@ -1,1 +1,1 @@
-Utilizing a gabor filter to perform texture classification
+Utilizing a laplacian and gabor filters to perform texture classification
